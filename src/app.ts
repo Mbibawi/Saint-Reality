@@ -125,7 +125,7 @@ function Header(router: Router): HTMLElement {
 
   const main = el('div', ['w', 'f', 'jb', 'ai'], '', { style: 'padding:1rem' });
   const logo = el('a', 'logo', '', { href: '/' });
-  const logoImg = el('img', '', '', { src: 'assets/uploads/2025/06/cropped-953288_OE60X31-154x141.png', alt: 'Logo Saint Realty & Consulting', width: '154', height: '141' });
+  const logoImg = el('img', '', '', { src: 'assets/uploads/2025/06/cropped-953288_OE60X31-300x275.png', alt: 'Logo Saint Realty & Consulting', width: '154', height: '141' });
   logo.appendChild(logoImg);
   logo.addEventListener('click', e => { e.preventDefault(); router.navigate('/'); });
 
@@ -464,7 +464,7 @@ function AgentsPage(): HTMLElement {
   ]
   agents.forEach((agent, i) => {
     const card = el('div', ['card', 'ac'], '', { style: 'padding:2rem' });
-    const img = el('img', '', '', { src: `assets/uploads/2022/10/estate-agent-${i + 1}`, alt: agent.name, style: 'width:120px;height:120px;borderRadius:50%;objectFit:cover;margin:0 auto 1rem' });
+    const img = el('img', '', '', { src: `assets/uploads/2022/10/estate-agent-${i + 1}.jpg`, alt: agent.name, style: 'width:120px;height:120px;borderRadius:50%;objectFit:cover;margin:0 auto 1rem' });
     card.append(img, el('h3', '', agent.name), el('p', 'txt', 'Real Estate Consultant'));
     card.append(el('p', '', agent.resume));
     card.append(el('p', '', agent.tel));
