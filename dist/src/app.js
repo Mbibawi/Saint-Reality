@@ -147,8 +147,8 @@ function PropertyCard(p, router) {
     const img = el('img', 'ci', '', { src: p.image, alt: p.title });
     const body = el('div', 'cb');
     const meta = el('div', ['f', 'jb', 'ai'], '', { style: 'marginBottom:.5rem' });
-    const status = el('span', p.status === 'FOR SALE' ? 'ct ct-s' : 'ct ct-r', p.status);
-    const type = el('span', 'ct ct-c', p.type);
+    const status = el('span', p.status === 'FOR SALE' ? ['ct', 'ct-s'] : ['ct', 'ct-r'], p.status);
+    const type = el('span', ['ct', 'ct-c'], p.type);
     meta.append(status, type);
     const title = el('h3', '', p.title, { style: 'fontSize:1.25rem;fontWeight:700;marginBottom:.25rem' });
     const price = el('div', 'cp', p.price);
