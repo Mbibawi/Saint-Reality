@@ -265,7 +265,7 @@ function HomePage(router: Router): HTMLElement {
   const aboutBtn = el('a', ['btn', 'btn-o'], 'Learn More', { href: '/about' });
   aboutBtn.addEventListener('click', e => { e.preventDefault(); router.navigate('/about'); });
   aboutTxt.appendChild(aboutBtn);
-  const aboutImg = el('img', '', '', { src: 'assets/uploads/2025/09/DSC_1325-2-e1759264917414-1024x923.jpg', alt: 'About Saint Realty', style: 'borderRadius:var(--ra)' });
+  const aboutImg = el('img', '', '', { src: 'assets/uploads/2025/10/DSC_1325-2-e1759264917414-1024x923.jpg', alt: 'About Saint Realty', style: 'borderRadius:var(--ra)' });
   aboutW.append(aboutTxt, aboutImg);
   about.appendChild(aboutW);
 
@@ -311,7 +311,7 @@ function AboutPage(): HTMLElement {
   txt.appendChild(el('p', 'txt', 'With personalized service, professionalism, and care, we guide you through every step of your real estate journey in Greece.'));
   txt.appendChild(el('p', 'txt', 'We assist international clients in English and Arabic, offering property searches, investment consulting, and Golden Visa support. We also place special focus on accessibility, proposing homes that truly improve everyday life for people with disabilities.'));
   txt.appendChild(el('p', 'txt', 'With us, you don’t just find a property – you house your dream.'));
-  const img = el('img', '', '', { src: 'assets/uploads/2025/09/DSC_1325-2-e1759264917414-1024x923.jpg', alt: 'Team member', style: 'borderRadius:var(--ra)' });
+  const img = el('img', '', '', { src: 'assets/uploads/2025/10/DSC_1325-2-e1759264917414-1024x923.jpg', alt: 'Team member', style: 'borderRadius:var(--ra)' });
   w2.append(txt, img);
   s2.appendChild(w2);
   page.appendChild(s2);
