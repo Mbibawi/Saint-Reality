@@ -449,22 +449,24 @@ function PropertyDetailPage(title, property) {
     page.appendChild(sec);
     return page;
 }
-const app = document.getElementById('app');
-const router = new Router(el('div'));
-const layout = el('div');
-const main = el('main');
-layout.appendChild(Header(router));
-layout.appendChild(main);
-layout.appendChild(Footer());
-app.appendChild(layout);
-router.add('/', () => HomePage(router));
-router.add('/about', () => AboutPage());
-router.add('/contact', () => ContactPage());
-router.add('/properties', () => PropertiesPage(router));
-router.add('/agents', () => AgentsPage());
-router.add('/faq', () => FAQPage());
-router.add('/property/kavouri', () => PropertyDetailPage('Kavouri – Vouliagmeni', FEATURED[0]));
-router.add('/property/nea-smyrni', () => PropertyDetailPage('ATHENS – NEA SMYRNI', FEATURED[1]));
-main.appendChild(router['outlet']);
-router.render();
+(function start() {
+    const app = document.getElementById('app');
+    const router = new Router(el('div'));
+    const layout = el('div');
+    const main = el('main');
+    layout.appendChild(Header(router));
+    layout.appendChild(main);
+    layout.appendChild(Footer());
+    app.appendChild(layout);
+    router.add('/', () => HomePage(router));
+    router.add('/about', () => AboutPage());
+    router.add('/contact', () => ContactPage());
+    router.add('/properties', () => PropertiesPage(router));
+    router.add('/agents', () => AgentsPage());
+    router.add('/faq', () => FAQPage());
+    router.add('/property/kavouri', () => PropertyDetailPage('Kavouri – Vouliagmeni', FEATURED[0]));
+    router.add('/property/nea-smyrni', () => PropertyDetailPage('ATHENS – NEA SMYRNI', FEATURED[1]));
+    main.appendChild(router['outlet']);
+    router.render();
+})();
 //# sourceMappingURL=app.js.map
