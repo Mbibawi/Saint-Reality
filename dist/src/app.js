@@ -3,30 +3,30 @@ const PHONE = '+30 693 4101 621';
 const EMAIL = 'info@saint-realty.com';
 const ADDRESS = 'Gamveta 12, Athens 106 77';
 const Properties = [
-    { status: 'FOR RENT', cat: 'Apartment', type: 'Commercial', title: 'Athens 90tm', price: '$ 5,235/mo', location: '123 Fifth Avenue, NY 10160', details: 'Offices: 20 / Baths: 6 / Sq Ft: 10,450', image: 'assets/uploads/2022/10/img-06-free-img.jpg', slug: '#' },
-    { status: 'FOR RENT', cat: 'Apartment', type: 'Residential', title: 'City Center Apartment', price: '$ 1,600/mo', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 2 / Baths: 1 / Sq Ft: 450', image: 'assets/uploads/2022/10/img-07-free-img.jpg', slug: '#' },
-    { status: 'FOR SALE', cat: 'Apartment', type: 'Residential', title: 'Gorgeous Studio Apartment', price: '$ 89,500', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 1 / Baths: 1 / Sq Ft: 150', image: 'assets/uploads/2022/10/img-08-free-img.jpg', slug: '#' },
-    { status: 'FOR RENT', cat: 'Apartment', type: 'Commercial', title: 'Luxury Family Apartment', price: '$ 1,300/MO', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 2 / Baths: 2 / Sq Ft: 725', image: 'assets/uploads/2022/10/img-09-free-img.jpg', slug: '#' },
-    { status: 'FOR RENT', cat: 'Apartment', type: 'Residential', title: 'Glamorous Apartment', price: '$ 1,235/MO', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 3 / Baths: 2 / Sq Ft: 145', image: 'assets/uploads/2022/10/img-10-free-img.jpg', slug: '#' },
-    { status: 'FOR RENT', cat: 'Apartment', type: 'Commercial', title: 'Athens 90tm', price: '$ 5,235/mo', location: '123 Fifth Avenue, NY 10160', details: 'Offices: 20 / Baths: 6 / Sq Ft: 10,450', image: 'assets/uploads/2022/10/img-06-free-img.jpg', slug: '#' },
-    { status: 'FOR RENT', cat: 'House', type: 'Commercial', title: 'Awesome Apartment', price: '$ 5,235/mo', location: '123 Fifth Avenue, NY 10160', details: 'Offices: 20 / Baths: 6 / Sq Ft: 10,450', image: 'assets/uploads/2022/10/img-06-free-img.jpg', slug: '#' },
-    { status: 'FOR SALE', cat: 'House', type: 'Commercial', title: 'Modern Apartment', price: '$ 151,000', location: '123 Fifth Avenue, NY 10160', details: 'Offices: 10 / Baths: 4 / Sq Ft: 850', image: 'assets/uploads/2022/10/img-07-free-img.jpg', slug: '#' },
-    { status: 'FOR RENT', cat: 'House', type: 'Residential', title: 'City Center Apartment', price: '$ 1,600/mo', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 2 / Baths: 1 / Sq Ft: 450', image: 'assets/uploads/2022/10/img-08-free-img.jpg', slug: '#' },
-    { status: 'FOR SALE', cat: 'House', type: 'Residential', title: 'Gorgeous Studio Apartment', price: '$ 89,500', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 1 / Baths: 1 / Sq Ft: 150', image: 'assets/uploads/2022/10/img-09-free-img.jpg', slug: '#' },
-    { status: 'FOR RENT', cat: 'House', type: 'Commercial', title: 'Luxury Family Apartment', price: '$ 1,300/MO', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 2 / Baths: 2 / Sq Ft: 725', image: 'assets/uploads/2022/10/img-10-free-img.jpg', slug: '#' },
-    { status: 'FOR RENT', cat: 'House', type: 'Residential', title: 'Glamorous Apartment', price: '$ 1,235/MO', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 3 / Baths: 2 / Sq Ft: 145', image: 'assets/uploads/2022/10/img-06-free-img.jpg', slug: '#' },
-    { status: 'FOR RENT', cat: 'Office', type: 'Commercial', title: 'Awesome Apartment', price: '$ 5,235/mo', location: '123 Fifth Avenue, NY 10160', details: 'Offices: 20 / Baths: 6 / Sq Ft: 10,450', image: 'assets/uploads/2022/10/img-06-free-img.jpg', slug: '#' },
-    { status: 'FOR SALE', cat: 'Office', type: 'Commercial', title: 'Modern Apartment', price: '$ 151,000', location: '123 Fifth Avenue, NY 10160', details: 'Offices: 10 / Baths: 4 / Sq Ft: 850', image: 'assets/uploads/2022/10/img-07-free-img.jpg', slug: '#' },
-    { status: 'FOR RENT', cat: 'Office', type: 'Residential', title: 'City Center Apartment', price: '$ 1,600/mo', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 2 / Baths: 1 / Sq Ft: 450', image: 'assets/uploads/2022/10/img-08-free-img.jpg', slug: '#' },
-    { status: 'FOR SALE', cat: 'Office', type: 'Residential', title: 'Gorgeous Studio Apartment', price: '$ 89,500', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 1 / Baths: 1 / Sq Ft: 150', image: 'assets/uploads/2022/10/img-09-free-img.jpg', slug: '#' },
-    { status: 'FOR RENT', cat: 'Office', type: 'Commercial', title: 'Luxury Family Apartment', price: '$ 1,300/MO', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 2 / Baths: 2 / Sq Ft: 725', image: 'assets/uploads/2022/10/img-10-free-img.jpg', slug: '#' },
-    { status: 'FOR RENT', cat: 'Office', type: 'Residential', title: 'Glamorous Apartment', price: '$ 1,235/MO', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 3 / Baths: 2 / Sq Ft: 145', image: 'assets/uploads/2022/10/img-06-free-img.jpg', slug: '#' }
+    { status: 'FOR RENT', cat: 'Apartments', type: 'Commercial', title: 'Athens 90tm', price: '$ 5,235/mo', location: '123 Fifth Avenue, NY 10160', details: 'Offices: 20 / Baths: 6 / Sq Ft: 10,450', image: 'prop-5-free-img', slug: '#' },
+    { status: 'FOR RENT', cat: 'Apartments', type: 'Residential', title: 'City Center Apartment', price: '$ 1,600/mo', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 2 / Baths: 1 / Sq Ft: 450', image: 'prop-1-free-img', slug: '#' },
+    { status: 'FOR SALE', cat: 'Apartments', type: 'Residential', title: 'Gorgeous Studio Apartment', price: '$ 89,500', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 1 / Baths: 1 / Sq Ft: 150', image: 'prop-2-free-imgg', slug: '#' },
+    { status: 'FOR RENT', cat: 'Apartments', type: 'Commercial', title: 'Luxury Family Apartment', price: '$ 1,300/MO', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 2 / Baths: 2 / Sq Ft: 725', image: 'prop-3-free-img', slug: '#' },
+    { status: 'FOR RENT', cat: 'Apartments', type: 'Residential', title: 'Glamorous Apartment', price: '$ 1,235/MO', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 3 / Baths: 2 / Sq Ft: 145', image: 'prop-4-free-img', slug: '#' },
+    { status: 'FOR RENT', cat: 'Apartments', type: 'Commercial', title: 'Athens 90tm', price: '$ 5,235/mo', location: '123 Fifth Avenue, NY 10160', details: 'Offices: 20 / Baths: 6 / Sq Ft: 10,450', image: 'prop-5-free-img', slug: '#' },
+    { status: 'FOR RENT', cat: 'Houses', type: 'Commercial', title: 'Awesome Apartment', price: '$ 5,235/mo', location: '123 Fifth Avenue, NY 10160', details: 'Offices: 20 / Baths: 6 / Sq Ft: 10,450', image: 'prop-1-free-img', slug: '#' },
+    { status: 'FOR SALE', cat: 'Houses', type: 'Commercial', title: 'Modern Apartment', price: '$ 151,000', location: '123 Fifth Avenue, NY 10160', details: 'Offices: 10 / Baths: 4 / Sq Ft: 850', image: 'prop-2-free-img', slug: '#' },
+    { status: 'FOR RENT', cat: 'Houses', type: 'Residential', title: 'City Center Apartment', price: '$ 1,600/mo', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 2 / Baths: 1 / Sq Ft: 450', image: 'prop-3-free-img', slug: '#' },
+    { status: 'FOR SALE', cat: 'Houses', type: 'Residential', title: 'Gorgeous Studio Apartment', price: '$ 89,500', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 1 / Baths: 1 / Sq Ft: 150', image: 'prop-4-free-img', slug: '#' },
+    { status: 'FOR RENT', cat: 'Houses', type: 'Commercial', title: 'Luxury Family Apartment', price: '$ 1,300/MO', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 2 / Baths: 2 / Sq Ft: 725', image: 'prop-5-free-img', slug: '#' },
+    { status: 'FOR RENT', cat: 'Houses', type: 'Residential', title: 'Glamorous Apartment', price: '$ 1,235/MO', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 3 / Baths: 2 / Sq Ft: 145', image: 'prop-1-free-img', slug: '#' },
+    { status: 'FOR RENT', cat: 'Offices', type: 'Commercial', title: 'Awesome Apartment', price: '$ 5,235/mo', location: '123 Fifth Avenue, NY 10160', details: 'Offices: 20 / Baths: 6 / Sq Ft: 10,450', image: 'prop-2-free-img', slug: '#' },
+    { status: 'FOR SALE', cat: 'Offices', type: 'Commercial', title: 'Modern Apartment', price: '$ 151,000', location: '123 Fifth Avenue, NY 10160', details: 'Offices: 10 / Baths: 4 / Sq Ft: 850', image: 'prop-3-free-img', slug: '#' },
+    { status: 'FOR RENT', cat: 'Offices', type: 'Residential', title: 'City Center Apartment', price: '$ 1,600/mo', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 2 / Baths: 1 / Sq Ft: 450', image: 'prop-4-free-img', slug: '#' },
+    { status: 'FOR SALE', cat: 'Offices', type: 'Residential', title: 'Gorgeous Studio Apartment', price: '$ 89,500', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 1 / Baths: 1 / Sq Ft: 150', image: 'prop-5-free-img', slug: '#' },
+    { status: 'FOR RENT', cat: 'Offices', type: 'Commercial', title: 'Luxury Family Apartment', price: '$ 1,300/MO', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 2 / Baths: 2 / Sq Ft: 725', image: 'prop-1-free-img', slug: '#' },
+    { status: 'FOR RENT', cat: 'Offices', type: 'Residential', title: 'Glamorous Apartment', price: '$ 1,235/MO', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 3 / Baths: 2 / Sq Ft: 145', image: 'prop-6-free-img', slug: '#' }
 ];
 const FEATURED = [
-    Properties.find(p => p.cat === 'House' && p.status === 'FOR SALE'),
-    Properties.find(p => p.cat === 'Apartment' && p.status === 'FOR SALE'),
-    Properties.find(p => p.cat === 'Apartment' && p.status === 'FOR RENT'),
-    Properties.find(p => p.cat === 'Office')
+    Properties.find(p => p.cat === 'Houses' && p.status === 'FOR SALE'),
+    Properties.find(p => p.cat === 'Apartments' && p.status === 'FOR SALE'),
+    Properties.find(p => p.cat === 'Apartments' && p.status === 'FOR RENT'),
+    Properties.find(p => p.cat === 'Offices')
 ].filter(p => p !== undefined);
 function el(tag, cls, text, attrs, children) {
     const el = document.createElement(tag);
@@ -58,24 +58,25 @@ function iconPhone() {
 class Router {
     constructor(outlet) {
         this.routes = new Map();
+        this.url = 'https://mbibawi.github.io/Saint-Reality/';
         this.outlet = outlet;
         window.addEventListener('popstate', () => this.render());
     }
     add(path, handler) {
-        this.routes.set(path, handler);
+        this.routes.set(`${this.url}${path}`, handler);
     }
-    navigate(path) {
-        history.pushState({}, '', path);
-        this.render();
+    navigate(path, cat) {
+        history.pushState({}, '', `${this.url}${path}`);
+        this.render(cat);
         document.querySelectorAll('.nav a').forEach(a => {
             a.classList.toggle('act', a.pathname === path);
         });
     }
-    render() {
+    render(cat) {
         const path = window.location.pathname;
-        const handler = this.routes.get(path) || this.routes.get('/');
+        const handler = this.routes.get(path) || this.routes.get(this.url);
         this.outlet.innerHTML = '';
-        this.outlet.appendChild(handler());
+        this.outlet.appendChild(handler(cat));
         window.scrollTo(0, 0);
         document.querySelectorAll('.nav a').forEach(a => {
             a.classList.toggle('act', a.pathname === path);
@@ -97,15 +98,15 @@ function Header(router) {
     const logo = el('a', 'logo', '', { href: '/' });
     const logoImg = el('img', '', '', { src: 'assets/uploads/2025/06/cropped-953288_OE60X31-300x275.png', alt: 'Logo Saint Realty & Consulting', width: '154', height: '141' });
     logo.appendChild(logoImg);
-    logo.addEventListener('click', e => { e.preventDefault(); router.navigate('/'); });
+    logo.addEventListener('click', e => { e.preventDefault(); router.navigate(''); });
     const nav = el('nav', 'nav');
     const links = [
-        { t: 'Home', p: '/' },
-        { t: 'About Us', p: '/about' },
-        { t: 'Properties', p: '/properties' },
-        { t: 'Agents', p: '/agents' },
-        { t: 'FAQ', p: '/faq' },
-        { t: 'Contact', p: '/contact' }
+        { t: 'Home', p: '' },
+        { t: 'About Us', p: 'about' },
+        { t: 'Properties', p: 'properties' },
+        { t: 'Agents', p: 'agents' },
+        { t: 'FAQ', p: 'faq' },
+        { t: 'Contact', p: 'contact' }
     ];
     links.forEach(l => {
         const a = el('a', window.location.pathname === l.p ? 'act' : '', l.t, { href: l.p });
@@ -143,8 +144,9 @@ function Footer() {
     return ftr;
 }
 function PropertyCard(p, router) {
+    const url = `../assets/uploads/2022/10/${p.image}.jpg`;
     const card = el('div', 'card');
-    const img = el('img', 'ci', '', { src: p.image, alt: p.title });
+    const img = el('img', 'ci', '', { src: url, alt: p.title });
     const body = el('div', 'cb');
     const meta = el('div', ['f', 'jb', 'ai'], '', { style: 'marginBottom:.5rem' });
     const status = el('span', p.status === 'FOR SALE' ? ['ct', 'ct-s'] : ['ct', 'ct-r'], p.status);
@@ -180,7 +182,7 @@ function HomePage(router) {
     phoneBtn.prepend(iconPhone());
     const h1 = el('h1', 'tit', 'House Your Dream', { style: 'color:var(--t)' });
     const cta = el('a', ['btn', 'btn-p'], 'Contact Us', { href: '/contact' });
-    cta.addEventListener('click', e => { e.preventDefault(); router.navigate('/contact'); });
+    cta.addEventListener('click', e => { e.preventDefault(); router.navigate('contact'); });
     heroBox.append(phoneBtn, h1, cta);
     heroInner.appendChild(heroBox);
     hero.appendChild(heroInner);
@@ -217,7 +219,7 @@ function HomePage(router) {
     aboutTxt.appendChild(el('p', 'txt', 'At Saint Realty & Consulting, we believe real estate is about more than properties – it’s about people.'));
     aboutTxt.appendChild(el('p', 'txt', 'With personalized service, professionalism, and care, we guide you through every step of your real estate journey in Greece.'));
     const aboutBtn = el('a', ['btn', 'btn-o'], 'Learn More', { href: '/about' });
-    aboutBtn.addEventListener('click', e => { e.preventDefault(); router.navigate('/about'); });
+    aboutBtn.addEventListener('click', e => { e.preventDefault(); router.navigate('about'); });
     aboutTxt.appendChild(aboutBtn);
     const aboutImg = el('img', '', '', { src: 'assets/uploads/2025/10/DSC_1325-2-e1759264917414-1024x923.jpg', alt: 'About Saint Realty', style: 'borderRadius:var(--ra)' });
     aboutW.append(aboutTxt, aboutImg);
@@ -229,7 +231,7 @@ function HomePage(router) {
     ['Apartments', 'Houses', 'Offices'].forEach(cat => {
         const card = el('div', ['card', 'ac'], '', { style: 'padding:2rem;cursor:pointer' });
         card.appendChild(el('h3', '', cat, { style: 'fontSize:1.5rem;marginBottom:.5rem' }));
-        card.addEventListener('click', () => router.navigate('/properties'));
+        card.addEventListener('click', () => router.navigate('properties', cat));
         lookGrid.appendChild(card);
     });
     lookW.appendChild(lookGrid);
@@ -315,13 +317,14 @@ function ContactPage() {
     page.appendChild(s2);
     return page;
 }
-function PropertiesPage(router) {
+function PropertiesPage(router, cat) {
     const page = el('div');
     const s1 = el('section', 'sec');
     const w1 = el('div', 'w');
     w1.appendChild(SectionTitle('Find Your Perfect Home', 'Nice Apartments'));
     const g1 = el('div', 'cl');
-    Properties.forEach(p => g1.appendChild(PropertyCard(p, router)));
+    const props = cat ? Properties.filter(p => p.cat === cat) : Properties;
+    props.forEach(p => g1.appendChild(PropertyCard(p, router)));
     w1.appendChild(g1);
     s1.appendChild(w1);
     page.appendChild(s1);
@@ -329,7 +332,9 @@ function PropertiesPage(router) {
     const w2 = el('div', 'w');
     w2.appendChild(el('h2', ['tit', 'ac'], 'Attractive Houses', { style: 'marginBottom:2rem' }));
     const g2 = el('div', 'cl');
-    Properties.filter(p => p.cat === 'House').forEach(p => g2.appendChild(PropertyCard(p, router)));
+    Properties
+        .filter(p => p.cat === 'Houses')
+        .forEach(p => g2.appendChild(PropertyCard(p, router)));
     w2.appendChild(g2);
     s2.appendChild(w2);
     page.appendChild(s2);
@@ -337,7 +342,9 @@ function PropertiesPage(router) {
     const w3 = el('div', 'w');
     w3.appendChild(el('h2', ['tit', 'ac'], 'Best Offices', { style: 'marginBottom:2rem' }));
     const g3 = el('div', 'cl');
-    Properties.filter(p => p.cat === 'Office').forEach(p => g3.appendChild(PropertyCard(p, router)));
+    Properties
+        .filter(p => p.cat === 'Offices')
+        .forEach(p => g3.appendChild(PropertyCard(p, router)));
     w3.appendChild(g3);
     s3.appendChild(w3);
     page.appendChild(s3);
@@ -395,7 +402,7 @@ function AgentsPage() {
     ];
     agents.forEach((agent, i) => {
         const card = el('div', ['card', 'ac'], '', { style: 'padding:2rem' });
-        const img = el('img', '', '', { src: `assets/uploads/2022/10/estate-agent-${i + 1}.jpg`, alt: agent.name, style: 'width:120px;height:120px;borderRadius:50%;objectFit:cover;margin:0 auto 1rem' });
+        const img = el('img', '', '', { src: `../assets/uploads/2022/10/estate-agent-${i + 1}.jpg`, alt: agent.name, style: 'width:120px;height:120px;borderRadius:50%;objectFit:cover;margin:0 auto 1rem' });
         card.append(img, el('h3', '', agent.name), el('p', 'txt', 'Real Estate Consultant'));
         card.append(el('p', '', agent.resume));
         card.append(el('p', '', agent.tel));
@@ -458,14 +465,14 @@ function PropertyDetailPage(title, property) {
     layout.appendChild(main);
     layout.appendChild(Footer());
     app.appendChild(layout);
-    router.add('/', () => HomePage(router));
-    router.add('/about', () => AboutPage());
-    router.add('/contact', () => ContactPage());
-    router.add('/properties', () => PropertiesPage(router));
-    router.add('/agents', () => AgentsPage());
-    router.add('/faq', () => FAQPage());
-    router.add('/property/kavouri', () => PropertyDetailPage('Kavouri – Vouliagmeni', FEATURED[0]));
-    router.add('/property/nea-smyrni', () => PropertyDetailPage('ATHENS – NEA SMYRNI', FEATURED[1]));
+    router.add('', () => HomePage(router));
+    router.add(`about`, () => AboutPage());
+    router.add(`contact`, () => ContactPage());
+    router.add(`properties`, (cat) => PropertiesPage(router, cat));
+    router.add(`agents`, () => AgentsPage());
+    router.add(`faq`, () => FAQPage());
+    router.add(`property/kavouri`, () => PropertyDetailPage('Kavouri – Vouliagmeni', FEATURED[0]));
+    router.add(`property/nea-smyrni`, () => PropertyDetailPage('ATHENS – NEA SMYRNI', FEATURED[1]));
     main.appendChild(router['outlet']);
     router.render();
 })();

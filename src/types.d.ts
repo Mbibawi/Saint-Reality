@@ -1,8 +1,8 @@
-type RouteHandler = () => HTMLElement;
+type RouteHandler = (cat?: string) => HTMLElement;
 
 type Property = {
   status: 'FOR SALE' | 'FOR RENT';
-  cat: 'Apartment' | 'Office' | 'House',
+  cat: 'Apartments' | 'Offices' | 'Houses',
   type: 'Residential' | 'Commercial';
   title: string;
   price: string;
