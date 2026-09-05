@@ -2,7 +2,7 @@
 const PHONE = '+30 693 4101 621';
 const EMAIL = 'info@saint-realty.com';
 const ADDRESS = 'Gamveta 12, Athens 106 77';
-const UPLOADS = './assets/uploads/';
+const UPLOADS = '../assets/uploads/';
 const Properties = [
     { status: 'FOR RENT', cat: 'Apartments', type: 'Commercial', title: 'Athens 90tm', price: '$ 5,235/mo', location: '123 Fifth Avenue, NY 10160', details: 'Offices: 20 / Baths: 6 / Sq Ft: 10,450', image: 'prop-5-free-img', slug: '#' },
     { status: 'FOR RENT', cat: 'Apartments', type: 'Residential', title: 'City Center Apartment', price: '$ 1,600/mo', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 2 / Baths: 1 / Sq Ft: 450', image: 'prop-1-free-img', slug: '#' },
