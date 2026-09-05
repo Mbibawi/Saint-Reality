@@ -389,7 +389,7 @@ function FundingBox(name, desc) {
 }
 function AccessibilityPage(router) {
     const page = el('div');
-    const hero = el('section', ['sec', 'hero'], '', { style: `background:linear-gradient(rgba(19,64,51,.55),rgba(19,64,51,.55)),url(${UPLOADS}2022/10/estate-living-room.jpg) center/cover no-repeat;min-height:420px` });
+    const hero = el('section', ['sec', 'hero', 'hero-flat'], '', { style: `background:linear-gradient(rgba(19,64,51,.55),rgba(19,64,51,.55)),url(${UPLOADS}2022/10/estate-living-room.jpg) center/cover no-repeat;min-height:420px` });
     const heroInner = el('div', 'w');
     const heroBox = el('div', '', '', { style: 'max-width:720px' });
     heroBox.appendChild(el('p', 'sub', 'Accessibility & Independent Living Consulting', { style: 'color:#fff' }));

@@ -159,6 +159,7 @@ function Header(router: Router): HTMLElement {
     { t: 'FAQ', p: 'faq' },
     { t: 'Contact', p: 'contact' }
   ];
+
   links.forEach(l => {
     const a = el('a', window.location.pathname === router.path(l.p) ? 'act' : '', l.t, { href: l.p });
     a.addEventListener('click', e => { e.preventDefault(); router.navigate(l.p); });
@@ -473,7 +474,7 @@ function AccessibilityPage(router: Router): HTMLElement {
   const page = el('div');
 
   /* Hero */
-  const hero = el('section', ['sec', 'hero'], '', { style: `background:linear-gradient(rgba(19,64,51,.55),rgba(19,64,51,.55)),url(${UPLOADS}2022/10/estate-living-room.jpg) center/cover no-repeat;min-height:420px` });
+  const hero = el('section', ['sec', 'hero', 'hero-flat'], '', { style: `background:linear-gradient(rgba(19,64,51,.55),rgba(19,64,51,.55)),url(${UPLOADS}2022/10/estate-living-room.jpg) center/cover no-repeat;min-height:420px` });
   const heroInner = el('div', 'w');
   const heroBox = el('div', '', '', { style: 'max-width:720px' });
   heroBox.appendChild(el('p', 'sub', 'Accessibility & Independent Living Consulting', { style: 'color:#fff' }));
