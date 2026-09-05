@@ -14,24 +14,24 @@ const ADDRESS = 'Gamveta 12, Athens 106 77';
 const UPLOADS = '/Saint-Reality/dist/assets/uploads/';
 
 const Properties: Property[] = [
-  { status: 'FOR RENT', cat: 'Apartments', type: 'Commercial', title: 'Athens 90tm', price: '$ 5,235/mo', location: '123 Fifth Avenue, NY 10160', details: 'Offices: 20 / Baths: 6 / Sq Ft: 10,450', image: 'prop-5-free-img', slug: '#' },
-  { status: 'FOR RENT', cat: 'Apartments', type: 'Residential', title: 'City Center Apartment', price: '$ 1,600/mo', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 2 / Baths: 1 / Sq Ft: 450', image: 'prop-1-free-img', slug: '#' },
-  { status: 'FOR SALE', cat: 'Apartments', type: 'Residential', title: 'Gorgeous Studio Apartment', price: '$ 89,500', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 1 / Baths: 1 / Sq Ft: 150', image: 'prop-2-free-img', slug: '#' },
-  { status: 'FOR RENT', cat: 'Apartments', type: 'Commercial', title: 'Luxury Family Apartment', price: '$ 1,300/MO', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 2 / Baths: 2 / Sq Ft: 725', image: 'prop-3-free-img', slug: '#' },
-  { status: 'FOR RENT', cat: 'Apartments', type: 'Residential', title: 'Glamorous Apartment', price: '$ 1,235/MO', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 3 / Baths: 2 / Sq Ft: 145', image: 'prop-4-free-img', slug: '#' },
-  { status: 'FOR RENT', cat: 'Apartments', type: 'Commercial', title: 'Athens 90tm', price: '$ 5,235/mo', location: '123 Fifth Avenue, NY 10160', details: 'Offices: 20 / Baths: 6 / Sq Ft: 10,450', image: 'prop-5-free-img', slug: '#' },
-  { status: 'FOR RENT', cat: 'Houses', type: 'Commercial', title: 'Awesome Apartment', price: '$ 5,235/mo', location: '123 Fifth Avenue, NY 10160', details: 'Offices: 20 / Baths: 6 / Sq Ft: 10,450', image: 'prop-1-free-img', slug: '#' },
-  { status: 'FOR SALE', cat: 'Houses', type: 'Commercial', title: 'Modern Apartment', price: '$ 151,000', location: '123 Fifth Avenue, NY 10160', details: 'Offices: 10 / Baths: 4 / Sq Ft: 850', image: 'prop-2-free-img', slug: '#' },
-  { status: 'FOR RENT', cat: 'Houses', type: 'Residential', title: 'City Center Apartment', price: '$ 1,600/mo', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 2 / Baths: 1 / Sq Ft: 450', image: 'prop-3-free-img', slug: '#' },
-  { status: 'FOR SALE', cat: 'Houses', type: 'Residential', title: 'Gorgeous Studio Apartment', price: '$ 89,500', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 1 / Baths: 1 / Sq Ft: 150', image: 'prop-4-free-img', slug: '#' },
-  { status: 'FOR RENT', cat: 'Houses', type: 'Commercial', title: 'Luxury Family Apartment', price: '$ 1,300/MO', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 2 / Baths: 2 / Sq Ft: 725', image: 'prop-5-free-img', slug: '#' },
-  { status: 'FOR RENT', cat: 'Houses', type: 'Residential', title: 'Glamorous Apartment', price: '$ 1,235/MO', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 3 / Baths: 2 / Sq Ft: 145', image: 'prop-1-free-img', slug: '#' },
-  { status: 'FOR RENT', cat: 'Offices', type: 'Commercial', title: 'Awesome Apartment', price: '$ 5,235/mo', location: '123 Fifth Avenue, NY 10160', details: 'Offices: 20 / Baths: 6 / Sq Ft: 10,450', image: 'prop-2-free-img', slug: '#' },
-  { status: 'FOR SALE', cat: 'Offices', type: 'Commercial', title: 'Modern Apartment', price: '$ 151,000', location: '123 Fifth Avenue, NY 10160', details: 'Offices: 10 / Baths: 4 / Sq Ft: 850', image: 'prop-3-free-img', slug: '#' },
-  { status: 'FOR RENT', cat: 'Offices', type: 'Residential', title: 'City Center Apartment', price: '$ 1,600/mo', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 2 / Baths: 1 / Sq Ft: 450', image: 'prop-4-free-img', slug: '#' },
-  { status: 'FOR SALE', cat: 'Offices', type: 'Residential', title: 'Gorgeous Studio Apartment', price: '$ 89,500', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 1 / Baths: 1 / Sq Ft: 150', image: 'prop-5-free-img', slug: '#' },
-  { status: 'FOR RENT', cat: 'Offices', type: 'Commercial', title: 'Luxury Family Apartment', price: '$ 1,300/MO', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 2 / Baths: 2 / Sq Ft: 725', image: 'prop-1-free-img', slug: '#' },
-  { status: 'FOR RENT', cat: 'Offices', type: 'Residential', title: 'Glamorous Apartment', price: '$ 1,235/MO', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 3 / Baths: 2 / Sq Ft: 145', image: 'prop-6-free-img', slug: '#' }
+  { status: 'FOR RENT', cat: 'Apartments', type: 'Commercial', title: 'Athens 90tm', price: '€5,235/mo', location: '123 Fifth Avenue, NY 10160', details: 'Offices: 20 / Baths: 6 / Sq Ft: 10,450', image: 'prop-5-free-img', slug: '#' },
+  { status: 'FOR RENT', cat: 'Apartments', type: 'Residential', title: 'City Center Apartment', price: '€1,600/mo', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 2 / Baths: 1 / Sq Ft: 450', image: 'prop-1-free-img', slug: '#' },
+  { status: 'FOR SALE', cat: 'Apartments', type: 'Residential', title: 'Gorgeous Studio Apartment', price: '€89,500', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 1 / Baths: 1 / Sq Ft: 150', image: 'prop-2-free-img', slug: '#' },
+  { status: 'FOR RENT', cat: 'Apartments', type: 'Commercial', title: 'Luxury Family Apartment', price: '€1,300/MO', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 2 / Baths: 2 / Sq Ft: 725', image: 'prop-3-free-img', slug: '#' },
+  { status: 'FOR RENT', cat: 'Apartments', type: 'Residential', title: 'Glamorous Apartment', price: '€1,235/MO', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 3 / Baths: 2 / Sq Ft: 145', image: 'prop-4-free-img', slug: '#' },
+  { status: 'FOR RENT', cat: 'Apartments', type: 'Commercial', title: 'Athens 90tm', price: '€5,235/mo', location: '123 Fifth Avenue, NY 10160', details: 'Offices: 20 / Baths: 6 / Sq Ft: 10,450', image: 'prop-5-free-img', slug: '#' },
+  { status: 'FOR RENT', cat: 'Houses', type: 'Commercial', title: 'Awesome Apartment', price: '€5,235/mo', location: '123 Fifth Avenue, NY 10160', details: 'Offices: 20 / Baths: 6 / Sq Ft: 10,450', image: 'prop-1-free-img', slug: '#' },
+  { status: 'FOR SALE', cat: 'Houses', type: 'Commercial', title: 'Modern Apartment', price: '€151,000', location: '123 Fifth Avenue, NY 10160', details: 'Offices: 10 / Baths: 4 / Sq Ft: 850', image: 'prop-2-free-img', slug: '#' },
+  { status: 'FOR RENT', cat: 'Houses', type: 'Residential', title: 'City Center Apartment', price: '€1,600/mo', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 2 / Baths: 1 / Sq Ft: 450', image: 'prop-3-free-img', slug: '#' },
+  { status: 'FOR SALE', cat: 'Houses', type: 'Residential', title: 'Gorgeous Studio Apartment', price: '€89,500', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 1 / Baths: 1 / Sq Ft: 150', image: 'prop-4-free-img', slug: '#' },
+  { status: 'FOR RENT', cat: 'Houses', type: 'Commercial', title: 'Luxury Family Apartment', price: '€1,300/MO', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 2 / Baths: 2 / Sq Ft: 725', image: 'prop-5-free-img', slug: '#' },
+  { status: 'FOR RENT', cat: 'Houses', type: 'Residential', title: 'Glamorous Apartment', price: '€1,235/MO', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 3 / Baths: 2 / Sq Ft: 145', image: 'prop-1-free-img', slug: '#' },
+  { status: 'FOR RENT', cat: 'Offices', type: 'Commercial', title: 'Awesome Apartment', price: '€5,235/mo', location: '123 Fifth Avenue, NY 10160', details: 'Offices: 20 / Baths: 6 / Sq Ft: 10,450', image: 'prop-2-free-img', slug: '#' },
+  { status: 'FOR SALE', cat: 'Offices', type: 'Commercial', title: 'Modern Apartment', price: '€151,000', location: '123 Fifth Avenue, NY 10160', details: 'Offices: 10 / Baths: 4 / Sq Ft: 850', image: 'prop-3-free-img', slug: '#' },
+  { status: 'FOR RENT', cat: 'Offices', type: 'Residential', title: 'City Center Apartment', price: '€1,600/mo', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 2 / Baths: 1 / Sq Ft: 450', image: 'prop-4-free-img', slug: '#' },
+  { status: 'FOR SALE', cat: 'Offices', type: 'Residential', title: 'Gorgeous Studio Apartment', price: '€89,500', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 1 / Baths: 1 / Sq Ft: 150', image: 'prop-5-free-img', slug: '#' },
+  { status: 'FOR RENT', cat: 'Offices', type: 'Commercial', title: 'Luxury Family Apartment', price: '€1,300/MO', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 2 / Baths: 2 / Sq Ft: 725', image: 'prop-1-free-img', slug: '#' },
+  { status: 'FOR RENT', cat: 'Offices', type: 'Residential', title: 'Glamorous Apartment', price: '€1,235/MO', location: '123 Fifth Avenue, NY 10160', details: 'Bedrooms: 3 / Baths: 2 / Sq Ft: 145', image: 'prop-6-free-img', slug: '#' }
 ];
 
 const FEATURED: Property[] =
@@ -152,8 +152,8 @@ function Header(router: Router): HTMLElement {
   const nav = el('nav', 'nav');
   const links = [
     { t: 'Home', p: '' },
-    { t: 'Accessibility Services', p: 'accessibility' },
     { t: 'About Us', p: 'about' },
+    { t: 'Accessibility Services', p: 'accessibility' },
     { t: 'Properties', p: 'properties' },
     { t: 'Agents', p: 'agents' },
     { t: 'FAQ', p: 'faq' },
@@ -473,14 +473,14 @@ function AccessibilityPage(router: Router): HTMLElement {
   const page = el('div');
 
   /* Hero */
-  const hero = el('section', ['sec', 'hero'], '', { style: 'background:linear-gradient(rgba(19,64,51,.55),rgba(19,64,51,.55)),url(${UPLOADS}2022/10/estate-living-room.jpg) center/cover no-repeat;min-height:420px' });
+  const hero = el('section', ['sec', 'hero'], '', { style: `background:linear-gradient(rgba(19,64,51,.55),rgba(19,64,51,.55)),url(${UPLOADS}2022/10/estate-living-room.jpg) center/cover no-repeat;min-height:420px` });
   const heroInner = el('div', 'w');
   const heroBox = el('div', '', '', { style: 'max-width:720px' });
   heroBox.appendChild(el('p', 'sub', 'Accessibility & Independent Living Consulting', { style: 'color:#fff' }));
   heroBox.appendChild(el('h1', 'tit', 'Homes adapted for people with disabilities and reduced mobility in Greece', { style: 'color:#fff' }));
   heroBox.appendChild(el('p', 'txt', 'We help individuals, landlords and apartment-building associations (πολυκατοικίες) design, build and finance accessible homes — from the first assessment to the final inspection.', { style: 'color:#e6efe9' }));
   const heroBtn = el('a', ['btn', 'btn-p'], 'Request an assessment', { href: '/contact' });
-  heroBtn.addEventListener('click', e => { e.preventDefault(); router.navigate('/contact'); });
+  heroBtn.addEventListener('click', e => { e.preventDefault(); router.navigate('contact'); });
   heroBox.appendChild(heroBtn);
   heroInner.appendChild(heroBox);
   hero.appendChild(heroInner);
@@ -560,7 +560,7 @@ function AccessibilityPage(router: Router): HTMLElement {
   ctaW.appendChild(el('h2', 'tit', 'Let\u2019s talk about your project'));
   ctaW.appendChild(el('p', 'txt', 'Every situation is different. Contact us for an initial conversation and an assessment of your home and of the funding you may be entitled to.'));
   const ctaBtn = el('a', ['btn', 'btn-p'], 'Contact us', { href: '/contact' });
-  ctaBtn.addEventListener('click', e => { e.preventDefault(); router.navigate('/contact'); });
+  ctaBtn.addEventListener('click', e => { e.preventDefault(); router.navigate('contact'); });
   ctaW.appendChild(ctaBtn);
   cta.appendChild(ctaW);
 
